@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .section {
+     
+    min-height: auto;   
+    margin-top: 20px; 
+  }
+  
+  
