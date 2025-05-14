@@ -3,7 +3,8 @@ import Events from './Events'
 import Condition from './condition'
 import List from './List'
 import Form from './Form'
-import Memo from './Memo'
+import Memo from './Memo' 
+
 const Home = ({details}) => {
   
   return (
@@ -11,11 +12,7 @@ const Home = ({details}) => {
       <h1>{details.name}</h1>
       <p>{details.learn}</p>
       <h1>react events</h1>
-      <Events/>
-      <Condition/>
-      <List/>
-      <Form/>
-      <Memo/>
+    
     </div>
   )
 }

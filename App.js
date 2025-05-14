@@ -3,25 +3,34 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home';
 import Events from './Components/Events';
 import Conditionl from './Components/condition';
-import Thala from './Components/condition';
 import List from './Components/List'
 import Form from './Components/Form'
 import Memo from './Components/Memo'
-
+import Parent from './Components/Parent'
+import Chid from './Components/Child'
+import Useeffect  from './Components/UseEffect'
+import UseEffect2 from './Components/UseEffect 2';
+import UseRef from './Components/UseRef'
+import Useref2 from './Components/UseRef2'
+import UseState from './Components/UseState';
+import UseRef3 from './Components/UseRef3'
 function app() {
-  const details = {name:"CARS",learn:"react"}
-  return(
-   <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Home details={details} />}/>
-      <Route path='/Events' element={<Events/>}/>
-      <Route path='/Conditional' element={<Conditionl/>} />
-      <Route path='/Condition' element={<Thala/>} />
-      <Route path='/List' element={<List/>} />  
-      <Route path='/Form' element={<Form/>} />  
-      <Route path='/Memo' element={<Memo/>} />  
-    </Routes>
-   </BrowserRouter>
+  const details = { name: "CARS", learn: "react" }
+  return (
+    <center>
+     <Events/>
+     <Conditionl/>
+     <List/>
+     <Form/>
+     <Memo/>
+     <Parent/>
+     <Useeffect/>
+     <UseEffect2/>
+     <UseRef/>
+     <Useref2/>
+     <UseState/>
+     <UseRef3/>
+    </center>
   );
 }
-export default app ;
+export default app;

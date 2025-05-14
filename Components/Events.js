@@ -9,8 +9,10 @@ function Football() {
   };
 
   return (
-    <div>
-      <button onClick={() => shoot("goal!")}>Take the shot!</button>
+    <div style={{
+      marginTop:'50px',
+    }}>
+      <button onClick={() => shoot("enter your opinioun")}>Take the shot!</button>
       <h1 id="ans">{answer}</h1>
     </div>
   );
