@@ -14,6 +14,8 @@ import UseRef from './Components/UseRef'
 import Useref2 from './Components/UseRef2'
 import UseState from './Components/UseState';
 import UseRef3 from './Components/UseRef3'
+import UseReducer from './Components/UseReducer';
+import Reducer    from './Components/UseReducer2';
 function app() {
   const details = { name: "CARS", learn: "react" }
   return (
@@ -30,6 +32,8 @@ function app() {
      <Useref2/>
      <UseState/>
      <UseRef3/>
+     <UseReducer/>
+     <Reducer/>
     </center>
   );
 }

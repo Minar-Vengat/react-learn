@@ -1,0 +1,58 @@
+.counter-container {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.counter-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.count-display {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.button-group button:hover {
+  background-color: #388e3c;
+}
+
+.button-group button:nth-child(2) {
+  background-color: #f44336;
+}
+
+.button-group button:nth-child(2):hover {
+  background-color: #c62828;
+}
+
+.button-group button:nth-child(3) {
+  background-color: #2196f3;
+}
+
+.button-group button:nth-child(3):hover {
+  background-color: #1565c0;
+}
